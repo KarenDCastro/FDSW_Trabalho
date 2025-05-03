@@ -1,0 +1,65 @@
+/*1. O fundo da página deve ter uma cor suave.*/
+body{
+    background-color: rgba(121, 121, 128, 0.178);
+    font-family: Arial, sans-serif;
+    margin: 60px;
+    line-height: 1.5;
+}
+
+/*2. O título (<h1>) deve ter uma cor diferente e estar centralizado.*/
+h1{
+    color: rgb(0, 0, 109);
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+
+/*3. O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.*/
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+.principal{
+    font-size: 18px;
+}
+
+/*4. A lista (<ul>) deve ter um espaçamento maior entre os itens.*/
+ul li{
+    line-height: 2.5;
+    font-size: 16;
+}
+
+/*5. A imagem (<img>) deve ter bordas arredondadas e um tamanho adequado.*/
+#hobby{
+    width: 300px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/*6. A tabela(<table>) deve estar estilizada.*/
+table{
+    width: 300px;
+    margin: 30px;
+    border: 1px solid #000000;
+}
+th,td{
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+    background-color: #0000003a;
+    color: white;
+    font-weight: bold;
+}
+.itable{
+    width: 100px;
+    margin: 10px;
+}
+
+/*7. O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele.*/
+a{
+    color: blue;
+}
+a:hover{
+    color: purple;
+}
